@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(images/copy-space-childrens-reading.jpg);
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    font-style: italic;
+   
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+    cursor: pointer;
+    transition: 1s ease;
+}
+h1:hover{
+    scale: 0.7;
+}
+h2{
+    font-size: 3em;
+    margin-top: 100px;
+    color: rgb(253, 99, 43);
+    transition: 1s ease;
+    cursor: pointer;
+}
+h2:hover{
+ scale: 0.7;
+}
+
+input{
+    font-size: 18px;
+    width: 240px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease;
+
+}
+input:hover{
+    scale: 0.95;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: rgb(255, 191, 142);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+button:hover {
+    background: rgb(255, 114, 63);
+    scale: 0.9;
+}
+
+#letters {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.letter {
+    font-size: 24px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px;
+    width: 25px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    transition: 1s ease;
+}
+
+.letter:hover {
+    background: #fa8b4f;
+    color: white;
+    scale: 1.1;
+}
+
+#images {
+    margin-top: 20px;
+}
+
+#images img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    display: none;
+    transition: 1s ease;
+}
+img:hover{
+    box-shadow: 1px;
+    scale :1.1;
+}
